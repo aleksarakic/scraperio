@@ -1,0 +1,12 @@
+{
+	"cache": {
+		"username": "",
+		"password": ""
+	},
+	"weather": {
+		"api_id": ""
+	},
+	"translation": {
+		"api_id": ""
+	}
+}

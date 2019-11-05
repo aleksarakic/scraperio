@@ -1,0 +1,13 @@
+development:
+  clients:
+    default:
+      database: scraperio
+      hosts:
+        
+        
+test:
+  clients:
+    default:
+      database: scraperio_test
+      hosts:
+      
