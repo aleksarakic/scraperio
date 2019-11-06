@@ -22,7 +22,7 @@ class HelperTest < Minitest::Test
   def test_define_note_translates_successfully
     helper = Class.new.extend(Helper)
     note = helper.define_note(21, 'en-de')
-    translations = ['Fühlt sich schön', 'Wo sind wir', 'Möglich Regen']
+    translations = ['Fühlt sich schön', 'Wo sind wir?', 'Möglich Regen']
     assert_includes translations, note
   end
 
