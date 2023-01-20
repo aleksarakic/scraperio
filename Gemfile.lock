@@ -1,20 +1,20 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (6.0.0)
-      activesupport (= 6.0.0)
-    activesupport (6.0.0)
+    activemodel (6.0.6.1)
+      activesupport (= 6.0.6.1)
+    activesupport (6.0.6.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-      zeitwerk (~> 2.1, >= 2.1.8)
+      zeitwerk (~> 2.2, >= 2.2.2)
     bson (4.6.0)
     childprocess (3.0.0)
     chronic (0.10.2)
-    concurrent-ruby (1.1.5)
+    concurrent-ruby (1.1.10)
     dalli (2.7.10)
-    i18n (1.7.0)
+    i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     minitest (5.13.0)
     mongo (2.11.0)
@@ -37,11 +37,11 @@ GEM
       tilt (~> 2.0)
     thread_safe (0.3.6)
     tilt (2.0.10)
-    tzinfo (1.2.5)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     whenever (1.0.0)
       chronic (>= 0.6.3)
-    zeitwerk (2.2.1)
+    zeitwerk (2.6.6)
 
 PLATFORMS
   ruby
